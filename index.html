@@ -2719,36 +2719,22 @@ th {
 	<li class="lang-item lang-item-29 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-192-en"><a href="go/" hreflang="en-AU" lang="en-AU"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIzSURBVHjaYjxe3nyAQ6Vyx7veD+tY/v3L/+dWKvXIyUTOc9Ybhq8fGBj+AJFnssv2uZsYGN4xMPwCCAAxAM7/AUtNjZ95PPsXHfjPzf/49wEfIhAVELzd+MzU5v38/vf6+1tNLQQEAd7j77fB3KOMjwIAMQDO/wHNCQkZhYYD7Or78vL++fkFDAv5/gH29/qJCD3w/AH6+PodGQ9GOyGJm8UgHRGrko8CiOmQjg+Ttj6HluZfYVEGWQUuM7Pfsop3ZfR+/Pnv56jCwMBw4/5roOrKdBsJYW4Ghm8AAcT0ISSJQVh4wz+F5zziL1gF1gmZMevofuQTcbZTlRXnLUyy+P7jd4SXFisLo6uVIgPDD4AAADEAzv8DLAEa6w0YwN/4+/b43/UCuNbx2/QDEP73rcbkJSIUq7fV6ev07O/3EQ8IqLXU3NDDAgAxAM7/A8veKS1ELvXw9N77Cd76BwT8+ujr9M/o+/3//8bN4+nt9P///1dLK6Cu0QkIBd7RvgKICRRwf/79/vMvyF6pNsX81++/f/7+Y/j39/evP//+/fv/9//Pn3965hz7+Onbv79/gYoBAgio4devP0Dj/psbSMtJ8gW4afz89fvX7z9g9BcYrNISfOWpVj9///379z9QA0AAsQA1AE0S4ufceeSuvprowZMPZCX4fv4Eyv778+f/9x+/ihLNtZTFfv76u2bnNaCnAQKIkYHBFxydP4A6kdAfZK6qY9nt/U0MDP+AoQwQYAAK+BukFnf4xAAAAABJRU5ErkJggg==" /><span style="margin-left:0.3em;">English</span></a></li>
 </ul>
 </li>
-</ul>					<img class="arrow" src="images/mobi_arrow.png" alt="Allright Casino">
-					
-										<div class="back-btn">
+</ul><img class="arrow" src="images/mobi_arrow.png" alt="Allright Casino">				
+<div class="back-btn">
 			<img src="images/mobi_arrow.png" alt="Allright Casino">
 			<span>PLECY</span>
 		</div>
-
             </div>
-		
 		<div class="help-btn">
 			<img src="images/help_mob.png" alt="Allright Casino">
 			<span>Pomoc online</span>
 		</div>
-			
-
-	
 	</div>
-
-
 </div>
-
 <a class="button primary mobile only fixed" href="go/">
     <span class="caption">Zdobądź bonus</span></a>
-
-
-
-
 <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-></script>
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/slick.min.js"></script>
 
 <script src="js/jquery_plugins.js"></script>
@@ -2790,8 +2776,6 @@ th {
         });
 
     });</script>
-
-
 <script>
     function onScrollDiv() {
         let images = document.querySelectorAll('[data-src]');
@@ -2800,7 +2784,6 @@ th {
             let rect = img.getBoundingClientRect();
             let isVisible = ((rect.top - window.innerHeight)  && (rect.bottom) ) ? true : false ;
             if (isVisible) {
-
                 if (!img.src) {
                     img.src = img.dataset.src;
                     img.removeAttribute('data-src');
@@ -2815,16 +2798,13 @@ th {
         }
     }
     window.addEventListener("scroll", function() { onScrollDiv() });
-    onScrollDiv();	
-	
+    onScrollDiv();
 	let langItems = document.querySelectorAll('.language-class .pll-parent-menu-item');
 	for(let i =0; i<langItems.length; i++ ){
 		langItems[i].addEventListener("click", ()=>{
 		langItems[i].closest('.languages_wrapper').classList.toggle('open');
 	})
 	}
-	
-	
 		let faqQuestions = document.querySelectorAll('.faq__question');
 	if(faqQuestions){
 		faqQuestions[0].closest('.faq__item').classList.add('open');
@@ -2834,10 +2814,6 @@ th {
 	})
 	}
 	}
-
-	
-	
-	
 	let backBtn = document.querySelector('.back-btn');
 	if(backBtn){
 				backBtn.addEventListener("click", ()=>{
